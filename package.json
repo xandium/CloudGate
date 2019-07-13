@@ -1,6 +1,6 @@
 {
-  "name": "cloudgate",
-  "version": "0.1.0",
+  "name": "@xandium/cloudgate",
+  "version": "0.1.1",
   "description": "Server appliance used as a gateway connection to discord",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,17 @@
     "lint:fix": "eslint . --fix"
   },
   "author": "wolke <wolke@weeb.sh>",
+  "contributors": [
+    "Sharon Williams <swilliams@xandium.io> (https://xandium.io)"
+  ],
   "license": "MIT",
   "dependencies": {
     "amqp": "^0.2.7",
     "body-parser": "^1.18.3",
-    "cloudstorm": "github:daswolke/cloudstorm",
-    "Cloudstorm": "github:daswolke/cloudstorm",
+    "@xandium/cloudstorm": "git+ssh://git@github.com/xandium/cloudstorm",
     "express": "^4.16.4",
     "redis": "^2.8.0",
+    "@xandium/stargear": "git+ssh://git@github.com/xandium/stargear",
     "tsubaki": "^1.3.1"
   },
   "devDependencies": {
